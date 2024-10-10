@@ -1,0 +1,23 @@
+.header {
+    @apply flex justify-between items-center bg-white shadow-md py-4 px-6;
+  }
+  
+  .logo {
+    @apply text-2xl font-bold text-blue-600;
+  }
+  
+  .nav {
+    @apply flex items-center space-x-4;
+  }
+  
+  .welcome {
+    @apply text-gray-600;
+  }
+  
+  .authButton {
+    @apply bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition-colors duration-200;
+  }
+  
+  .loading, .error {
+    @apply text-center py-4;
+  }
