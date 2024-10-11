@@ -10,14 +10,23 @@
   },
   "dependencies": {
     "@auth0/nextjs-auth0": "^3.5.0",
+    "@paralleldrive/cuid2": "^2.2.2",
     "@prisma/client": "^5.20.0",
+    "@tiptap/extension-text-align": "^2.8.0",
+    "@tiptap/extension-underline": "^2.8.0",
+    "@tiptap/pm": "^2.8.0",
     "@tiptap/react": "^2.8.0",
     "@tiptap/starter-kit": "^2.8.0",
+    "@types/lodash": "^4.17.10",
+    "lodash": "^4.17.21",
+    "lucide-react": "^0.451.0",
+    "nanoid": "^5.0.7",
     "next": "14.2.15",
     "react": "^18",
     "react-dom": "^18"
   },
   "devDependencies": {
+    "@tailwindcss/typography": "^0.5.15",
     "@types/auth0": "^3.3.10",
     "@types/node": "^20",
     "@types/react": "^18",
