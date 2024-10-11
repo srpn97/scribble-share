@@ -2,3 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+.ProseMirror {
+    min-height: 297mm;
+    padding: 20mm;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .ProseMirror:focus {
+    outline: none;
+  }
+  
+  .ProseMirror p {
+    margin-bottom: 1em;
+  }

@@ -14,10 +14,8 @@ generator client {
 }
 
 model Note {
-  id        String   @id @default(cuid())
-  title     String
-  content   String
+  id        String   @id
+  content   String   @db.Text
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
-  userId    String?
 }
